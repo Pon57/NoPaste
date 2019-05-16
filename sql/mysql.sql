@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS texts (
+    id           INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    text         VARCHAR(255)
+);
